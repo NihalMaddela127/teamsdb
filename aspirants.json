@@ -1,0 +1,85 @@
+[ 
+{"name":"Nihal",
+"branch":"ECM",
+"prefLang":"Python",
+"college":"Snist",
+"percentage":"80%"},
+
+{"name":"Shravan",
+    "branch":"ECM",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Vinay",
+    "branch":"ECE",
+    "prefLang":"Python",
+ "college":"Snist",
+ "percentage":"80%"},
+ 
+{"name":"Sandeep",
+    "branch":"ECE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Sai",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Ganesh Srv",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"GNIT",
+ "percentage":"80%"},
+
+{"name":"Chaitanya",
+    "branch":"ECE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Anvesh",
+    "branch":"ECE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Ashish",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Venkatesh",
+    "branch":"ECE",
+    "prefLang":"Python",
+     "college":"Snist",
+ "percentage":"80%"},
+
+{"name":"Pavithra",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"GNIT",
+ "percentage":"80%"},
+
+{"name":"Soujanya",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"GNIT",
+ "percentage":"80%"},
+
+{"name":"Anurag",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"GNIT",
+ "percentage":"80%"},
+
+{"name":"Akhil",
+    "branch":"CSE",
+    "prefLang":"Python",
+     "college":"GNIT",
+ "percentage":"80%"}  
+]
