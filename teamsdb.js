@@ -22,7 +22,7 @@ app.post('/',function(req, resp){
             db.collection('aspirants').insertMany(jsonContent, function(err, res) {
                 if(err){resp.send("Error: Unable to insert json contents to database.")}
           });
-          db.collection('students').find({}).toArray(function(err,aspirants){;
+          db.collection('aspirants').find({}).toArray(function(err,aspirants){
             if (err) {
                 resp.send("Error: Unable to retreive aspirants data from database.");
             }
