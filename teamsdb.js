@@ -21,7 +21,12 @@ app.post('/',function(req, resp){
             if(err){resp.send("Error: Unable to connect to database.")}
             db.collection('aspirants').insertMany(jsonContent, function(err, res) {
                 if(err){resp.send("Error: Unable to insert json contents to database.")}
-          });
+          db.close();
+            });
+            });
+            MongoClient.connect(url, function(err, db) {
+                if(err){resp.send("Error: Unable to connect to database.")}
+
           db.collection('aspirants').find({}).toArray(function(err,aspirants){
             if (err) {
                 resp.send("Error: Unable to retreive aspirants data from database.");
@@ -92,8 +97,8 @@ app.post('/',function(req, resp){
     let writeStream = fs.createWriteStream('log.txt',{'flags':'a'});
     writeStream.write('We had visit at '+ new Date()+'\n');
     writeStream.end();
-});
-db.close(); 
+        db.close(); 
+      });
 });   
 });
 });
