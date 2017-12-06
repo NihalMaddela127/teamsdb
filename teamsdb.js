@@ -31,7 +31,7 @@ app.post('/',function(req, resp){
             if (err) {
                 resp.send("Error: Unable to retreive aspirants data from database.");
             }
-        aspirantsCount = aspirants.length;
+        aspirantsCount = jsonContent.length;
         console.log("Aspirants Count: "+aspirantsCount);
         app.get('/db', function(req, resp){
         if ( teamSize == parseInt(teamSize,10) && teamSize > 0 && teamSize < aspirantsCount){
